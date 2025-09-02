@@ -13,7 +13,16 @@ Designed to provide **fast feedback** in startup environments where **caregiver 
 ## 🛠️ Tech Stack
 - Playwright Test (JavaScript)  
 - HTML reports, screenshots, video traces on failure  
-- CI/CD ready (GitHub Actions config coming soon)  
+- CI/CD ready (GitHub Actions config coming soon)
+
+- caregiver-portal-playwright-smoke/
+├── .gitignore
+├── README.md
+├── package.json
+├── playwright.config.js
+└── tests/
+    └── login.spec.js
+
 
 ## ▶️ Quick Start
 ```bash
