@@ -15,15 +15,6 @@ Designed to provide **fast feedback** in startup environments where **caregiver 
 - HTML reports, screenshots, video traces on failure  
 - CI/CD ready (GitHub Actions config coming soon)
 
-- caregiver-portal-playwright-smoke/
-├── .gitignore
-├── README.md
-├── package.json
-├── playwright.config.js
-└── tests/
-    └── login.spec.js
-
-
 ## ▶️ Quick Start
 ```bash
 # install dependencies
