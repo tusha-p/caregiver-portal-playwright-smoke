@@ -24,13 +24,33 @@ Designed to provide **fast feedback** in startup environments where **caregiver 
 ---
 
 ## ▶️ Quick Start
-```bash
-# install dependencies
-npm install
+Run these commands to install dependencies, execute tests, and open reports:
 
-# run smoke suite
-BASE_URL="https://app.demo-caregiver.com" USER_EMAIL="user@demo.com" USER_PASSWORD="secret" npm test
+- `npm install`  
+- `BASE_URL="https://app.demo-caregiver.com" USER_EMAIL="user@demo.com" USER_PASSWORD="secret" npm test`  
+- `npm run report`  
 
-# open HTML report
-npm run report
+---
+
+## 📈 Reports
+- View HTML reports in `playwright-report/index.html`  
+- GitHub Actions uploads reports as build artifacts  
+
+![Sample Report Screenshot](docs/report-screenshot.png)  
+
+---
+
+## 📌 Why This Repo
+Startups and mission-driven teams need **fast, reliable validation** of communication and documentation workflows.  
+This repo demonstrates:  
+- Hands-on **manual → automation translation** (smoke first, expand later)  
+- **Web & mobile coverage** (Chromium + Pixel emulation)  
+- Clear reports that provide rapid feedback loops for product and engineering  
+
+---
+
+## 🔮 Next Steps
+- Add API regression packs (Postman/Newman)  
+- Expand mobile coverage (iOS Safari, Android Chrome)  
+- Integrate advanced accessibility testing (axe-core)  
 
